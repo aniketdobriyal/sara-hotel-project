@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Saras Hotel-( kotdwara )</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-container">
+    <div class="logo">SARAS </div>
+    <nav>
+      <ul>
+        <li><a href="#home" tabindex="0">Home</a></li>
+        <li><a href="#rooms" tabindex="0">Rooms</a></li>
+        <li><a href="#nearby" tabindex="0">Nearby</a></li>
+        <li><a href="#contact" tabindex="0">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="home" role="banner" aria-label="Welcome message">
+  <h2>Welcome to Saras Hotel</h2>
+  <p>Experience comfort and convenience in the heart of the city.</p>
+  <button onclick="bookNow()" aria-label="Book your stay now">Book Now</button>
+</section>
+
+<section class="container" id="rooms" tabindex="-1">
+  <h2 class="section-title">Our Rooms</h2>
+
+  <div class="rooms-grid">
+
+    <div class="room-card" tabindex="0" aria-label="Standard Room">
+      <img src="https://th.bing.com/th/id/OIP._XuZby4A43FdQhGGOy_avwHaEK?cb=iwc2&rs=1&pid=ImgDetMain" alt="Standard Room with bed and window" class="room-image" />
+      <div class="room-content">
+        <h3>Standard Room</h3>
+        <p>Cozy and clean room ideal for budget travelers and solo guests.</p>
+        <div class="facilities-list" aria-label="Facilities for Standard Room">
+          <div class="facility">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3C7 3 2 6 2 12s5 9 10 9 10-4.5 10-9-5-9-10-9zM3 12c0-1.5 2.9-4 9-4 3 0 6 1.5 7.2 3-1.2 1.6-4.5 3-7.2 3-3.8 0-9-2-9-2z"/></svg>
+            Free WiFi
+          </div>
+          <div class="facility">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z" fill="none"/><path d="M21 4H3v16h18V4zm-2 14H5V6h14v12z"/><path d="M6 10h2v2H6zm0 4h2v2H6zm4-4h6v2h-6zm0 4h6v2h-6z"/></svg>
+            Flat Screen TV
+          </div>
+          <div class="facility">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v2H6zM9 8h6v9H9z"/></svg>
+            Air Conditioning
+          </div>
+          <div class="facility">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10h10v2H7zM7 14h10v2H7z"/></svg>
+            Ensuite Bathroom
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="room-card" tabindex="0" aria-label="Deluxe Room">
+      <img src="https://th.bing.com/th/id/OIP.M1KXOUppzZcree7o8fGfigHaE8?cb=iwc2&rs=1&pid=ImgDetMain" alt="Deluxe Room with spacious bed and decor" class="room-image" />
+      <div class="room-content">
+        <h3>Deluxe Room</h3>
+        <p>More spacious room with comfortable furnishings for a relaxing stay.</p>
+        <div class="facilities-list" aria-label="Facilities for Deluxe Room">
+          <div class="facility">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3C7 3 2 6 2 12s5 9 10 9 10-4.5 10-9-5-9-10-9zM3 12c0-1.5 2.9-4 9-4 3 0 6 1.5 7.2 3-1.2 1.6-4.5 3-7.2 3-3.8 0-9-2-9-2z"/></svg>
+            Free WiFi
+          </div>
+          <div class="facility">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z" fill="none"/><path d="M21 4H3v16h18V4zm-2 14H5V6h14v12z"/><path d="M6 10h2v2H6zm0 4h2v2H6zm4-4h6v2h-6zm0 4h6v2h-6z"/></svg>
+            Flat Screen TV
+          </div>
+          <div class="facility">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v2H6zM9 8h6v9H9z"/></svg>
+            Air Conditioning
+          </div>
+          <div class="facility">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10h10v2H7zM7 14h10v2H7z"/></svg>
+            Ensuite Bathroom
+          </div>
+          <div class="facility">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg>
+            Room Service
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="container" id="nearby" tabindex="-1">
+  <h2 class="section-title">Nearby Attractions</h2>
+  <div class="nearby-grid">
+    <div class="nearby-card" tabindex="0" aria-label="Local Market">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-c/1280x250/06/04/69/0e/shri-sidhbali-dham.jpg" alt="Local market stalls" class="nearby-image" />
+      <div class="nearby-content">
+        <h4>palari baba Temple</h4>
+        <p>Explore vibrant local crafts, fresh produce, and delicious street food nearby.</p>
+      </div>
+    </div>
+    <div class="nearby-card" tabindex="0" aria-label="City Museum">
+      <img src="1520a16cd87180d94b2ce383dc7266ff.jpg" alt="City Museum exterior" class="nearby-image" />
+      <div class="nearby-content">
+        <h4>shri-sidhbali-dham</h4>
+        <p>Discover the rich history and culture of the region at this popular museum.</p>
+      </div>
+    </div>
+    <div class="nearby-card" tabindex="0" aria-label="Cafe Street">
+      <img src="kotdwar-uttarakhand-1290x540.jpg" alt="Cozy cafe street" class="nearby-image" />
+      <div class="nearby-content">
+        <h4>Pulinda Hills
+        </h4>
+        <p>Enjoy artisanal coffee and cozy vibes just a short walk from the hotel.</p>
+      </div>
+    </div>
+    <div class="nearby-card" tabindex="0" aria-label="City Park">
+      <img src="kotdwar.webp" alt="City Park with trees and walking path" class="nearby-image" />
+      <div class="nearby-content">
+
+        <h4>Train station</h4>
+        <p>Relax in green open spaces, perfect for a morning walk or picnic.</p>
+      </div>
+    </div>
+
+      <div class="nearby-card" tabindex="0" aria-label="City Park">
+      <img src="image0.png" alt="City Park with trees and walking path" class="nearby-image" />
+      <div class="nearby-content">
+        <h4>Lal batti -( City Area )</h4>
+        <p>Relax in green open spaces, perfect for a morning walk or picnic.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact" tabindex="-1" role="contentinfo">
+  <div class="footer-container">
+    <div class="footer-col">
+      <h4>Saras Hotel</h4>
+      <p>Comfort and convenience in the heart of the city. We provide cozy, affordable stays for every traveler.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#nearby">Nearby</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <p>Email: <a href="mailto:info@dreamstay.com">info@Saras.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+      <p>Location: 123 Main Street, kotdwar</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Follow Us</h4>
+    <div class="social-icons">
+  <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+</div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Saras Hotel. All rights reserved.</p>
+  </div>
+</footer>
+
+
+<script>
+  function bookNow() {
+    alert('Thank you for your interest! Booking feature coming soon.');
+  }
+</script>
+
+</body>
+</html>
